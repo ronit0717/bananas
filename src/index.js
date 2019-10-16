@@ -7,6 +7,7 @@ import Home from './components/home';
 import Profile from './components/profile';
 import Posts from './components/posts';
 import PostItem from './components/post_item';
+import LifeCycle from './components/life_cycle'
 
 const App = () => {
     return (
@@ -24,11 +25,13 @@ const App = () => {
                         hash : '#ron',
                         search : '?profile=true'
                     }}>Profile</NavLink><br/>
+                    <NavLink to="/lifecycle">LifeCycle</NavLink>
                 </header>
 
                 <hr/>
 
                 <Switch>
+                    <Route path = "/lifecycle" component = {LifeCycle} />
                     <Route path = "/post/:id/:author" component = {PostItem} />
                     <Route path = "/post" component = {Posts} />
                     <Route path = "/profile" component = {Profile} />
