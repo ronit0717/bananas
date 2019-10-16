@@ -29,10 +29,11 @@ const App = () => {
                 <hr/>
 
                 <Switch>
-                    <Route path = "/post/:id/:author" exact component = {PostItem} />
-                    <Route path = "/post" exact component = {Posts} />
+                    <Route path = "/post/:id/:author" component = {PostItem} />
+                    <Route path = "/post" component = {Posts} />
                     <Route path = "/profile" component = {Profile} />
                     <Route path = "/" exact component = {Home} />
+                    <Route render={() => <h3>Oops.. 404</h3>} />
                 </Switch>
             </div>
         </BrowserRouter>
