@@ -8,7 +8,7 @@ class LifeCycle extends Component {
 
     //2. SET DEFAULT STATE
     state = {
-        title : 'LIFE-CYCLE',
+        title : 'LIFE-CYCLE-NEW',
         flag : 0
     }
 
