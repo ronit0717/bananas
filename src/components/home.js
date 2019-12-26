@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     const news = [
-        {id:'1', news:'Dhishoom 2 releases'},
-        {id:'2', news:'NorthEast United wins ISL'},
+        {id:'1', news:'Pygmy 2 releases'},
+        {id:'2', news:'New MNT Display in Quikr Apps'},
         {id:'3', news:'React community becomes stronger'}
     ]
     
