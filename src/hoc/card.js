@@ -7,9 +7,9 @@ const Card = (props) => {
     }
 
     return (        
-        <div style={style}>
+        <span style={style}>
             {props.children}
-        </div>
+        </span>
     )
 }
 
